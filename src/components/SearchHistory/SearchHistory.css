@@ -1,0 +1,141 @@
+.search-history {
+    background: rgba(255, 255, 255, 0.15);
+    max-width: 620px;
+    border-radius: 24px;
+    margin-top: 26px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 23px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.search-history h3 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.79px;
+    color: #fff;
+    margin-bottom: 26px;
+}
+
+.app.light-theme .search-history h3 {
+    color: #000000;
+}
+
+.history-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.history-item {
+    max-width: 580px;
+    height: 60px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.2);
+    padding-right: 15px;
+    padding-left: 21px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+    margin-bottom: 18px;
+}
+
+.history-item:hover {
+    background: rgba(255, 255, 255, 0.25);
+}
+
+.history-location {
+    width: 133px;
+    height: 18px;
+    color: #fff;
+    flex: 2;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.79px;
+}
+
+.app.light-theme .history-location {
+    color: #000000;
+}
+
+.history-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.history-time {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.07px;
+    color: #FFFFFF80;
+    height: 18px;
+}
+
+.app.light-theme .history-time {
+    color: #000000;
+}
+
+.history-actions {
+    width: 78px;
+    height: 34px;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    margin-left: 10px;
+}
+
+.action-button {
+    width: 34px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: #FFFFFF;
+}
+
+.app.light-theme .action-button {
+    box-shadow: 0px 4px 12px 0px #0000001A;
+}
+
+.app.dark-theme .action-button {
+    border: 2px solid #FFFFFF66;
+}
+
+
+.action-button:hover {
+    transform: scale(1.1);
+}
+
+button.action-button {
+    padding: 9px;
+}
+
+.app.dark-theme .action-button {
+    padding: 7px;
+}
+
+.app.light-theme .action-button {
+    color: #666666;
+}
+
+.app.dark-theme .action-button {
+    color: #FFFFFF66;
+}
+
+.no-history {
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.79px;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.app.light-theme .no-history {
+    color: #000000;
+}
