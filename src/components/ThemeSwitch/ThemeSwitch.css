@@ -1,0 +1,28 @@
+.theme-switch {
+    position: fixed;
+    top: 5px;
+    right: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.2rem;
+    backdrop-filter: blur(4px);
+    transition: all 0.3s ease;
+    z-index: 101;
+}
+
+.theme-switch:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: scale(1.1);
+}
+
+.theme-switch svg {
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+}
